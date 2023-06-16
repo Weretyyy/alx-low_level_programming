@@ -1,18 +1,15 @@
-include <stdio.h>
-
+#include <stdio.h>
 /**
- *main - print 0123456789
- *Return: Always 0 (Success)
+ * main - Entry point
+ * Return: Always 0 (Success)
  */
 
 int main(void)
 {
-int x = 0;
-while (x < 10)
-{
-printf("%i", x);
-x++;
-}
-putchar('\n');
-return (0);
+	int a;
+
+	for (a = 0; a < 10; a++)
+		printf("%d", a);
+	putchar('\n');
+	return (0);
 }
